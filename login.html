@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+		body{
+			background-image: url(images/login.jpg);
+		}
+		body
+		{
+          margin: 0;
+          padding: 0;
+          position:;
+          font-family: sans-serif;
+          background-size:cover; 
+     }
+
+	   .box{
+			      position: "absolute";
+                  top: 20%;
+                  left: 50%;
+                  transform: translate(-50%,-50%);
+                  width: 350px;
+                  height:300px;
+                  padding:40px;
+                  background:rgba(0,0,0,.4);
+                  box-sizing: border-box;
+                  box-shadow: 0 10px 20px rgba(0,0,0,.5);
+                  border-radius: 10px;
+                  z-index: -1
+		}
+     h2{
+      z-index: -1;
+      color:rgb(0,0,255);
+    }
+    label{
+      z-index: -1;
+       color: rgb(0,0,20);
+    }
+      </style>
+
+</head>
+
+<body>
+	<div class="box"></div>
+<h2><center>Login</center></h2>
+<form\><center>
+	<div class="inputBox">
+		<input type="text" name="" placeholder="enter user name">
+	    <label>username</label>
+       </center>
+         </div>
+       <center>
+       <div class="inputbox">
+		<input type="password" name="" required="" placeholder="enter user password" id="pwd">
+    <input type="checkbox" id="user">
+			<label>password</label>
+       	</center>
+        <span id="notice">show password</span>
+		</div>
+		<center>
+		<input type="submit" name="" value="Submit">
+	</center>
+</body>
+</html>
